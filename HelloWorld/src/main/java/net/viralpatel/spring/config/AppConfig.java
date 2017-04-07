@@ -20,6 +20,8 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 		viewResolver.setViewClass(JstlView.class);
 		viewResolver.setPrefix("/WEB-INF/views/");
 		viewResolver.setSuffix(".jsp");
+		
+		System.out.println("bean factory");
 
 		return viewResolver;
 	}
