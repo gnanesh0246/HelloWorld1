@@ -22,7 +22,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 		viewResolver.setSuffix(".jsp");
 		
 		System.out.println("bean factory");
-
+		System.out.println("bean factory 2");
 		return viewResolver;
 	}
 
